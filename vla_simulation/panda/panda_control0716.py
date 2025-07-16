@@ -380,7 +380,8 @@ if __name__ == "__main__":
     frame_indices = []
     frame_idx = 0
     ground_truth_actions = []
-
+    
+    # 수정
     for k, sample in enumerate(samples):
         #이미지
         encoded_image = sample['observation']['image']['bytes'] # 
