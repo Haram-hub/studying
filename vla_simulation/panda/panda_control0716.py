@@ -506,6 +506,7 @@ if __name__ == "__main__":
         print(f"An error occurred: {e}")
         traceback.print_exc()  # 상세한 에러 추적 정보 출력
 
+    #그냥
     # 3. finally 블록:
     # 예외 발생 여부와 관계없이 항상 실행되는 정리 코드
     # - 뷰어가 실행 중이면 종료
